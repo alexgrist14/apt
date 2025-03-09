@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+menu,
+ol,
+ul {
+  padding: 0 0 0 0;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+form {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+button,
+input {
+  line-height: normal;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+input,
+button,
+textarea,
+select {
+  box-shadow: none;
+  border: none;
+}
+.thumb,
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.thumb {
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: 200px;
+  outline: none;
+}
+
+.thumb--zindex-3 {
+  z-index: 3;
+}
+
+.thumb--zindex-4 {
+  z-index: 4;
+}
+
+.thumb--zindex-5 {
+  z-index: 5;
+}
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+  background-color: #4485f9;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+/* For Firefox browsers */
+.thumb::-moz-range-thumb {
+  background-color: #4485f9;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
